@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04E5C0F8-3F11-46FA-B321-B59D20E55656}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wikiled.Controls.Wpf</RootNamespace>
+    <AssemblyName>Wikiled.Controls.Wpf</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Wikiled.Controls\Helpers\IXmlReadable.cs">
+      <Link>Helpers\IXmlReadable.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Helpers\NumericExtensions.cs">
+      <Link>Helpers\NumericExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Helpers\ObservableCollectionXml.cs">
+      <Link>Helpers\ObservableCollectionXml.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Definitions.cs">
+      <Link>Keyboard\Definitions.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardControl.xaml.cs">
+      <Link>Keyboard\KeyboardControl.xaml.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardDefinition.cs">
+      <Link>Keyboard\KeyboardDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardException.cs">
+      <Link>Keyboard\KeyboardException.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardLayouts.cs">
+      <Link>Keyboard\KeyboardLayouts.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardLogic.cs">
+      <Link>Keyboard\KeyboardLogic.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardRow.cs">
+      <Link>Keyboard\KeyboardRow.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardRows.cs">
+      <Link>Keyboard\KeyboardRows.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardStatus.cs">
+      <Link>Keyboard\KeyboardStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\KeyFactory.cs">
+      <Link>Keyboard\KeyFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\AltKey.cs">
+      <Link>Keyboard\Keys\AltKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\BackspaceKey.cs">
+      <Link>Keyboard\Keys\BackspaceKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\CapsLockKey.cs">
+      <Link>Keyboard\Keys\CapsLockKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\CombinationKey.cs">
+      <Link>Keyboard\Keys\CombinationKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\CtrlKey.cs">
+      <Link>Keyboard\Keys\CtrlKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\DeleteKey.cs">
+      <Link>Keyboard\Keys\DeleteKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\EnterKey.cs">
+      <Link>Keyboard\Keys\EnterKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\Key.cs">
+      <Link>Keyboard\Keys\Key.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\ShiftKey.cs">
+      <Link>Keyboard\Keys\ShiftKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\SpaceKey.cs">
+      <Link>Keyboard\Keys\SpaceKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\SpecialKey.cs">
+      <Link>Keyboard\Keys\SpecialKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\Keyboard\Keys\TabKey.cs">
+      <Link>Keyboard\Keys\TabKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\BooleanVisibilityConverter.cs">
+      <Link>UI\BooleanVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\Commands.cs">
+      <Link>UI\Commands.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\DelegateCommand.cs">
+      <Link>UI\DelegateCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\KeyboardResourcesHelper.cs">
+      <Link>UI\KeyboardResourcesHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\KeyStyleConverter.cs">
+      <Link>UI\KeyStyleConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\OpacityConverter.cs">
+      <Link>UI\OpacityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\StretchDirection.cs">
+      <Link>UI\StretchDirection.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\Viewbox.cs">
+      <Link>UI\Viewbox.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\UI\VisibilityConverter.cs">
+      <Link>UI\VisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Wikiled.Controls\Images\Apply.jpg">
+      <Link>Images\Apply.jpg</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Images\cancel.jpg">
+      <Link>Images\cancel.jpg</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\arabic.xml">
+      <Link>Layouts\arabic.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\CompletlyCustom.xml">
+      <Link>Layouts\CompletlyCustom.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Croatian.xml">
+      <Link>Layouts\Croatian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Czech.xml">
+      <Link>Layouts\Czech.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Danish.xml">
+      <Link>Layouts\Danish.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Dutch.xml">
+      <Link>Layouts\Dutch.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\english.xml">
+      <Link>Layouts\english.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Estonian.xml">
+      <Link>Layouts\Estonian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Farsi.xml">
+      <Link>Layouts\Farsi.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Finnish.xml">
+      <Link>Layouts\Finnish.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\French.xml">
+      <Link>Layouts\French.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\German.xml">
+      <Link>Layouts\German.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Greek.xml">
+      <Link>Layouts\Greek.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Hebrew.xml">
+      <Link>Layouts\Hebrew.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Italian.xml">
+      <Link>Layouts\Italian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Latvian.xml">
+      <Link>Layouts\Latvian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Layouts.xml">
+      <Link>Layouts\Layouts.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Lithuanian.xml">
+      <Link>Layouts\Lithuanian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Norwegian.xml">
+      <Link>Layouts\Norwegian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Polish.xml">
+      <Link>Layouts\Polish.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Portuguese.xml">
+      <Link>Layouts\Portuguese.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Russian.xml">
+      <Link>Layouts\Russian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Serbian.xml">
+      <Link>Layouts\Serbian.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Slovak.xml">
+      <Link>Layouts\Slovak.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Spanish.xml">
+      <Link>Layouts\Spanish.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Swedish.xml">
+      <Link>Layouts\Swedish.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Thai.xml">
+      <Link>Layouts\Thai.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Turkish.xml">
+      <Link>Layouts\Turkish.xml</Link>
+    </Content>
+    <Content Include="..\Wikiled.Controls\Layouts\Ukrainian.xml">
+      <Link>Layouts\Ukrainian.xml</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\Wikiled.Controls\Keyboard\KeyboardControl.xaml">
+      <Link>Keyboard\KeyboardControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

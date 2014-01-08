@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikiled.Controls", "Wikiled.Controls.csproj", "{BBA6FB18-A1BC-44C1-AA53-47DB5A3738D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikiled.Controls", "Wikiled.Controls\Wikiled.Controls.csproj", "{BBA6FB18-A1BC-44C1-AA53-47DB5A3738D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikiled.Controls.Wpf", "Wikiled.Controls.Wpf\Wikiled.Controls.Wpf.csproj", "{04E5C0F8-3F11-46FA-B321-B59D20E55656}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BBA6FB18-A1BC-44C1-AA53-47DB5A3738D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA6FB18-A1BC-44C1-AA53-47DB5A3738D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA6FB18-A1BC-44C1-AA53-47DB5A3738D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

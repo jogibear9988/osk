@@ -109,17 +109,17 @@
       <DependentUpon>KeyboardControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\KeyboardResourcesHelper.cs" />
     <Compile Include="UI\KeyStyleConverter.cs" />
-    <Compile Include="UI\Viewbox.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="UI\VisibilityConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Keyboard\KeyboardControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -130,35 +130,35 @@
   <ItemGroup>
     <Resource Include="Images\Apply.jpg" />
     <Resource Include="Images\cancel.jpg" />
-    <Content Include="Layouts\arabic.xml" />
-    <Content Include="Layouts\CompletlyCustom.xml" />
-    <Content Include="Layouts\Croatian.xml" />
-    <Content Include="Layouts\Czech.xml" />
-    <Content Include="Layouts\Danish.xml" />
-    <Content Include="Layouts\Dutch.xml" />
-    <Content Include="Layouts\english.xml" />
-    <Content Include="Layouts\Estonian.xml" />
-    <Content Include="Layouts\Farsi.xml" />
-    <Content Include="Layouts\Finnish.xml" />
-    <Content Include="Layouts\French.xml" />
-    <Content Include="Layouts\German.xml" />
-    <Content Include="Layouts\Greek.xml" />
-    <Content Include="Layouts\Hebrew.xml" />
-    <Content Include="Layouts\Italian.xml" />
-    <Content Include="Layouts\Latvian.xml" />
-    <Content Include="Layouts\Layouts.xml" />
-    <Content Include="Layouts\Lithuanian.xml" />
-    <Content Include="Layouts\Norwegian.xml" />
-    <Content Include="Layouts\Polish.xml" />
-    <Content Include="Layouts\Portuguese.xml" />
-    <Content Include="Layouts\Russian.xml" />
-    <Content Include="Layouts\Serbian.xml" />
-    <Content Include="Layouts\Slovak.xml" />
-    <Content Include="Layouts\Spanish.xml" />
-    <Content Include="Layouts\Swedish.xml" />
-    <Content Include="Layouts\Thai.xml" />
-    <Content Include="Layouts\Turkish.xml" />
-    <Content Include="Layouts\Ukrainian.xml" />
+    <Resource Include="Layouts\arabic.xml" />
+    <Resource Include="Layouts\CompletlyCustom.xml" />
+    <Resource Include="Layouts\Croatian.xml" />
+    <Resource Include="Layouts\Czech.xml" />
+    <Resource Include="Layouts\Danish.xml" />
+    <Resource Include="Layouts\Dutch.xml" />
+    <Resource Include="Layouts\english.xml" />
+    <Resource Include="Layouts\Estonian.xml" />
+    <Resource Include="Layouts\Farsi.xml" />
+    <Resource Include="Layouts\Finnish.xml" />
+    <Resource Include="Layouts\French.xml" />
+    <Resource Include="Layouts\German.xml" />
+    <Resource Include="Layouts\Greek.xml" />
+    <Resource Include="Layouts\Hebrew.xml" />
+    <Resource Include="Layouts\Italian.xml" />
+    <Resource Include="Layouts\Latvian.xml" />
+    <Resource Include="Layouts\Layouts.xml" />
+    <Resource Include="Layouts\Lithuanian.xml" />
+    <Resource Include="Layouts\Norwegian.xml" />
+    <Resource Include="Layouts\Polish.xml" />
+    <Resource Include="Layouts\Portuguese.xml" />
+    <Resource Include="Layouts\Russian.xml" />
+    <Resource Include="Layouts\Serbian.xml" />
+    <Resource Include="Layouts\Slovak.xml" />
+    <Resource Include="Layouts\Spanish.xml" />
+    <Resource Include="Layouts\Swedish.xml" />
+    <Resource Include="Layouts\Thai.xml" />
+    <Resource Include="Layouts\Turkish.xml" />
+    <Resource Include="Layouts\Ukrainian.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

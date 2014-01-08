@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikiled.Controls", "Wikiled
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikiled.Controls.Wpf", "Wikiled.Controls.Wpf\Wikiled.Controls.Wpf.csproj", "{04E5C0F8-3F11-46FA-B321-B59D20E55656}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.WPF", "Example.WPF\Example.WPF.csproj", "{C0239A27-AB64-457B-AB10-2E0D1018D327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SL", "Example.SL\Example.SL.csproj", "{378F5067-FC46-4464-9856-F32958DD0A00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E5C0F8-3F11-46FA-B321-B59D20E55656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0239A27-AB64-457B-AB10-2E0D1018D327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0239A27-AB64-457B-AB10-2E0D1018D327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0239A27-AB64-457B-AB10-2E0D1018D327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0239A27-AB64-457B-AB10-2E0D1018D327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378F5067-FC46-4464-9856-F32958DD0A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378F5067-FC46-4464-9856-F32958DD0A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378F5067-FC46-4464-9856-F32958DD0A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378F5067-FC46-4464-9856-F32958DD0A00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

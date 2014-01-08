@@ -1,0 +1,9 @@
+﻿<Window x:Class="Example.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:keyboard="clr-namespace:Wikiled.Controls.Keyboard;assembly=Wikiled.Controls"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <keyboard:KeyboardControl />
+    </Grid>
+</Window>

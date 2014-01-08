@@ -22,6 +22,7 @@ namespace Wikiled.Controls.Keyboard
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
+        private const string assemblyName = "Wikiled.Controls";
         #region Variables
         private static KeyboardLayouts instance;
         private static object syncRoot = new object();
@@ -36,7 +37,8 @@ namespace Wikiled.Controls.Keyboard
         private void Read()
         {
             // open layouts definition file
-            StreamResourceInfo stream = Application.GetResourceStream(new Uri(@"Layouts/Layouts.xml", UriKind.Relative));
+            StreamResourceInfo stream =
+                Application.GetResourceStream(new Uri(assemblyName + ";component/Layouts/Layouts.xml", UriKind.Relative));
             if (stream == null ||
                 stream.Stream == null)
             {
@@ -63,7 +65,9 @@ namespace Wikiled.Controls.Keyboard
                                 {
                                     continue;
                                 }
-                                var keyboard = KeyboardDefinition.ReadKeyboard(string.Format(@"Layouts/{0}", path));
+                                var keyboard =
+                                    KeyboardDefinition.ReadKeyboard(
+                                        string.Format(assemblyName + ";component/Layouts/{0}", path));
                                 allLayouts.Add(keyboard);
                                 if (name == defaultLayout)
                                 {

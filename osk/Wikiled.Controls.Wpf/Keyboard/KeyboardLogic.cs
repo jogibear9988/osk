@@ -22,7 +22,6 @@ namespace Wikiled.Controls.Keyboard
 
         private string text;
 
-        private bool visibleHelperControls = true;
         #endregion
 
         public KeyboardLogic()
@@ -134,25 +133,7 @@ namespace Wikiled.Controls.Keyboard
             }
         }
 
-        /// <summary>
-        /// Are helper controls visible
-        /// </summary>
-        public bool VisibleHelperControls
-        {
-            get { return visibleHelperControls; }
-            set
-            {
-                if (visibleHelperControls == value)
-                {
-                    return;
-                }
-                visibleHelperControls = value;
-                if (PropertyChanged != null)
-                {
-                    PropertyChanged(this, new PropertyChangedEventArgs("VisibleHelperControls"));
-                }
-            }
-        }
+       
 
         #endregion
     }

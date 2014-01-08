@@ -9,17 +9,31 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Wikiled.Controls.Keyboard;
+using Wikiled.Controls.UI;
 
 namespace Wikiled.Controls.Keyboard
 {
     /// <summary>
     /// Keyboard control
     /// </summary>
-    public partial class KeyboardControl : UserControl
+    public partial class KeyboardControl
     {
+        public bool VisibleHelperControls
+        {
+            get { return (bool)GetValue(VisibleHelperControlsProperty); }
+            set { SetValue(VisibleHelperControlsProperty, value); }
+        }
+
+        public static readonly DependencyProperty VisibleHelperControlsProperty =
+            DependencyProperty.Register("VisibleHelperControls", typeof(bool), typeof(KeyboardControl), new PropertyMetadata(false));
+
+        
         public KeyboardControl()
         {
             InitializeComponent();
+
+            ((KeyStyleConverter) this.Resources["styleConverter"]).OwnerControl = this;
+            
             Logic = new KeyboardLogic();
             Logic.KeyPressed += new KeyPressed(Logic_KeyPressed);
             this.DataContext = Logic;

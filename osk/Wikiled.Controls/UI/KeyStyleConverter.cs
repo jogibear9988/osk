@@ -19,10 +19,11 @@ namespace Wikiled.Controls.UI
     public class KeyStyleConverter : IValueConverter
     {
         #region IValueConverter Members
+        public FrameworkElement OwnerControl { get; set; }
 
         public object Convert(
-            object value, 
-            Type targetType, 
+            object value,
+            Type targetType,
             object parameter,
             CultureInfo culture)
         {
@@ -30,11 +31,19 @@ namespace Wikiled.Controls.UI
             {
                 return null;
             }
-            if (targetType != typeof(Style))
+            if (targetType != typeof (Style))
             {
                 throw new InvalidOperationException("The target must be a Style");
             }
-            return KeyboardResourcesHelper.FindResource((string)value);
+
+            var name = (string) value;
+
+            if (OwnerControl != null && OwnerControl.Resources.Contains(name))
+            {
+                return OwnerControl.Resources[name];
+            }
+
+            return null;
         }
 
         public object ConvertBack(

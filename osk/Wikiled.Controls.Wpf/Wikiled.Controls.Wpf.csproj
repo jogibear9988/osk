@@ -30,13 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Wikiled.Controls\Helpers\IXmlReadable.cs">
@@ -62,9 +66,6 @@
     </Compile>
     <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardLayouts.cs">
       <Link>Keyboard\KeyboardLayouts.cs</Link>
-    </Compile>
-    <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardLogic.cs">
-      <Link>Keyboard\KeyboardLogic.cs</Link>
     </Compile>
     <Compile Include="..\Wikiled.Controls\Keyboard\KeyboardRow.cs">
       <Link>Keyboard\KeyboardRow.cs</Link>
@@ -141,6 +142,7 @@
     <Compile Include="..\Wikiled.Controls\UI\VisibilityConverter.cs">
       <Link>UI\VisibilityConverter.cs</Link>
     </Compile>
+    <Compile Include="Keyboard\KeyboardLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -16,6 +16,34 @@ namespace Wikiled.Controls.UI
     /// </summary>
     public static class KeyboardResourcesHelper
     {
+        //public static object FindResource(string name)
+        //{
+        //    if (string.IsNullOrEmpty(name) ||
+        //        Application.Current == null ||
+        //        Application.Current.Resources == null)
+        //    {
+        //        return null; 
+        //    }
+
+        //    if (Application.Current.Resources.Contains(name))
+        //    {
+        //        return Application.Current.Resources[name];
+        //    }
+
+        //    var page = Application.Current.RootVisual as Page;
+        //    if (page == null)
+        //    {
+        //        return null;
+        //    }
+
+        //    var keybard = page.keyboard;
+        //    if (keybard == null)
+        //    {
+        //        return null;
+        //    }
+        //    return keybard.FindResource(name);
+        //}
+
         public static object FindResource(string name)
         {
             if (string.IsNullOrEmpty(name) ||
@@ -30,18 +58,7 @@ namespace Wikiled.Controls.UI
                 return Application.Current.Resources[name];
             }
 
-            var page = Application.Current.RootVisual as Page;
-            if (page == null)
-            {
-                return null;
-            }
-
-            var keybard = page.keyboard;
-            if (keybard == null)
-            {
-                return null;
-            }
-            return keybard.FindResource(name);
+            return null;
         }
 
         internal static object FindResource(this FrameworkElement root, string name)

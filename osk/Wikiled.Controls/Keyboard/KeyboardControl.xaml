@@ -4,7 +4,7 @@
     xmlns:UI="clr-namespace:Wikiled.Controls.UI"	
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	mc:Ignorable="d" xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows" xmlns:Controls="clr-namespace:System.Windows.Controls">
+	mc:Ignorable="d" xmlns:Controls="clr-namespace:System.Windows.Controls">
     <UserControl.Resources>
         <Style x:Key="ImageButton" TargetType="Button">
             <Setter Property="Background" Value="#FF1F3B53"/>
@@ -25,13 +25,13 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Grid>
-                            <vsm:VisualStateManager.VisualStateGroups>
-                                <vsm:VisualStateGroup x:Name="CommonStates">
-                                    <vsm:VisualStateGroup.Transitions>
-                                        <vsm:VisualTransition GeneratedDuration="00:00:00.1000000"/>
-                                    </vsm:VisualStateGroup.Transitions>
-                                    <vsm:VisualState x:Name="Normal"/>
-                                    <vsm:VisualState x:Name="MouseOver">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualStateGroup.Transitions>
+                                        <VisualTransition GeneratedDuration="00:00:00.1000000"/>
+                                    </VisualStateGroup.Transitions>
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
                                         <Storyboard>
                                             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity">
                                                 <SplineDoubleKeyFrame KeyTime="0" Value="1"/>
@@ -52,8 +52,8 @@
                                                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="-1"/>
                                             </DoubleAnimationUsingKeyFrames>
                                         </Storyboard>
-                                    </vsm:VisualState>
-                                    <vsm:VisualState x:Name="Pressed">
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
                                         <Storyboard>
                                             <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)">
                                                 <SplineColorKeyFrame KeyTime="0" Value="#FF6DBDD1"/>
@@ -80,26 +80,26 @@
                                                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
                                             </DoubleAnimationUsingKeyFrames>
                                         </Storyboard>
-                                    </vsm:VisualState>
-                                    <vsm:VisualState x:Name="Disabled">
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
                                         <Storyboard>
                                             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="DisabledVisualElement" Storyboard.TargetProperty="Opacity">
                                                 <SplineDoubleKeyFrame KeyTime="0" Value=".55"/>
                                             </DoubleAnimationUsingKeyFrames>
                                         </Storyboard>
-                                    </vsm:VisualState>
-                                </vsm:VisualStateGroup>
-                                <vsm:VisualStateGroup x:Name="FocusStates">
-                                    <vsm:VisualState x:Name="Focused">
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
                                         <Storyboard>
                                             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="FocusVisualElement" Storyboard.TargetProperty="Opacity">
                                                 <SplineDoubleKeyFrame KeyTime="0" Value="1"/>
                                             </DoubleAnimationUsingKeyFrames>
                                         </Storyboard>
-                                    </vsm:VisualState>
-                                    <vsm:VisualState x:Name="Unfocused"/>
-                                </vsm:VisualStateGroup>
-                            </vsm:VisualStateManager.VisualStateGroups>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
                             <Border x:Name="Background" Background="White" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3">
                                 <Grid Margin="1" Background="{TemplateBinding Background}">
                                     <Border x:Name="BackgroundAnimation" Opacity="0" Background="#FF448DCA"/>

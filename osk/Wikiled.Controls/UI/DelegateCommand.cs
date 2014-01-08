@@ -45,10 +45,12 @@ namespace Wikiled.Controls.UI
 
             this.executeMethod = executeMethod;
             this.canExecuteMethod = canExecuteMethod;
+#if SILVERLIGHT
             if (Application.Current != null)
             {
                 dispatcher = Deployment.Current.Dispatcher;
             }
+#endif
         }
 
         ///<summary>

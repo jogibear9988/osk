@@ -7,6 +7,7 @@ using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
@@ -210,7 +211,17 @@ namespace System.Windows.Controls
         public Viewbox()
         {
             // Load the default template
+#if SILVERLIGHT
             Template = DefaultTemplate = XamlReader.Load(DefaultTemplateMarkup) as ControlTemplate;
+#else
+            MemoryStream stream = new MemoryStream();
+            StreamWriter writer = new StreamWriter(stream, System.Text.Encoding.Unicode);
+            writer.Write(DefaultTemplateMarkup);
+            writer.Flush();
+            stream.Position = 0;
+            Template = DefaultTemplate = (ControlTemplate) XamlReader.Load(stream);
+            stream.Close(); 
+#endif
             ApplyTemplate();
         }
 

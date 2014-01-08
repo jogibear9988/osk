@@ -3,7 +3,9 @@ using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Windows;
+#if SILVERLIGHT
 using System.Windows.Browser;
+#endif
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Ink;
@@ -27,7 +29,9 @@ namespace Wikiled.Controls.Keyboard
         /// <summary>
         /// Key pressed event 
         /// </summary>
+#if SILVERLIGHT
         [ScriptableMember]
+#endif
         public event KeyPressed KeyPressed;
 
         private KeyboardStatus status;

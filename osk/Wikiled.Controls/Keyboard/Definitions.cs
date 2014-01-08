@@ -1,7 +1,9 @@
 using System;
 using System.Net;
 using System.Windows;
+#if SILVERLIGHT
 using System.Windows.Browser;
+#endif
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Ink;
@@ -37,7 +39,9 @@ namespace Wikiled.Controls.Keyboard
         /// <summary>
         /// Pressed key value. Could be accesed via JavaScript
         /// </summary>
+#if SILVERLIGHT
         [ScriptableMember]
+#endif
         public string PressedKey { get; private set; }
 
         /// <summary>

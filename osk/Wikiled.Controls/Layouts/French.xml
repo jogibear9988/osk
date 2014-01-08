@@ -1,0 +1,59 @@
+<Keyboard language="French" culture="FR">
+  <Rows>
+    <KeyboardRow>
+      <Key dk="~">²</Key>
+      <Key shift="1" dk="`">&amp;</Key>
+      <Key shift="2" alt="~" dk="^">é</Key>
+      <Key shift="3" alt="#" dk="¨">"</Key>
+      <Key shift="4" alt="{">'</Key>
+      <Key shift="5" alt="[">(</Key>
+      <Key shift="6" alt="|">-</Key>
+      <Key shift="7" alt="`">è</Key>
+      <Key shift="8" alt="\">_</Key>
+      <Key shift="9" alt="^">ç</Key>
+      <Key shift="0" alt="@">à</Key>
+      <Key shift="°" alt="]">)</Key>
+      <Key shift="+" alt="}">=</Key>
+      <Key shift="µ">*</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key>z</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key shift="¨">^</Key>
+      <Key shift="£" alt="¤">$</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>q</Key>
+      <Key>s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key>m</Key>
+      <Key shift="%">ù</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>w</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key shift="?">,</Key>
+      <Key shift=".">;</Key>
+      <Key shift="/">:</Key>
+      <Key shift="§">!</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

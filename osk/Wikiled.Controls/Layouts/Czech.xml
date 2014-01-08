@@ -1,0 +1,59 @@
+<Keyboard language="Czech" culture="CS">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="°" dk="°">;</Key>
+      <Key shift="1" alt="~" dk="ˇ">+</Key>
+      <Key shift="2" alt="ˇ" dk="^">ě</Key>
+      <Key shift="3" alt="^" dk="˘">š</Key>
+      <Key shift="4" alt="˘" dk="˛">č</Key>
+      <Key shift="5" alt="°" dk="`">ř</Key>
+      <Key shift="6" alt="˛" dk="˙">ž</Key>
+      <Key shift="7" alt="`" dk="´">ý</Key>
+      <Key shift="8" alt="˙" dk="˝">á</Key>
+      <Key shift="9" alt="´" dk="¨">í</Key>
+      <Key shift="0" alt="˝" dk="¸">é</Key>
+      <Key shift="%" alt="¨">=</Key>
+      <Key shift="ˇ" alt="¸">´</Key>
+      <Key shift="'" alt="¤">¨</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="\">q</Key>
+      <Key alt="|">w</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>z</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key shift="/" alt="÷">ú</Key>
+      <Key shift="(" alt="×">)</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key alt="đ">s</Key>
+      <Key alt="Đ">d</Key>
+      <Key alt="[">f</Key>
+      <Key alt="]">g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key alt="ł">k</Key>
+      <Key alt="Ł">l</Key>
+      <Key shift="&quot;" alt="$">ů</Key>
+      <Key shift="!" alt="ß">§</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>y</Key>
+      <Key alt="#">x</Key>
+      <Key alt="&amp;">c</Key>
+      <Key alt="@">v</Key>
+      <Key alt="{">b</Key>
+      <Key alt="}">n</Key>
+      <Key>m</Key>
+      <Key shift="?" alt="&lt;">,</Key>
+      <Key shift=":" alt="&gt;">.</Key>
+      <Key shift="_" alt="*">-</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

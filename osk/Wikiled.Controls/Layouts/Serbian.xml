@@ -1,0 +1,59 @@
+<Keyboard language="Serbian" culture="SR">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="~" dk="'">`</Key>
+      <Key shift="!">1</Key>
+      <Key shift="&quot;">2</Key>
+      <Key shift="#">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="&amp;">6</Key>
+      <Key shift="/">7</Key>
+      <Key shift="(">8</Key>
+      <Key shift=")">9</Key>
+      <Key shift="=">0</Key>
+      <Key shift="?">'</Key>
+      <Key shift="*">+</Key>
+      <Key>ж</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>љ</Key>
+      <Key>њ</Key>
+      <Key alt="€">е</Key>
+      <Key>р</Key>
+      <Key>т</Key>
+      <Key>з</Key>
+      <Key>у</Key>
+      <Key>и</Key>
+      <Key>о</Key>
+      <Key>п</Key>
+      <Key>ш</Key>
+      <Key>ђ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>а</Key>
+      <Key>с</Key>
+      <Key>д</Key>
+      <Key>ф</Key>
+      <Key>г</Key>
+      <Key>х</Key>
+      <Key>ј</Key>
+      <Key>к</Key>
+      <Key>л</Key>
+      <Key>ч</Key>
+      <Key>ћ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>ѕ</Key>
+      <Key>џ</Key>
+      <Key>ц</Key>
+      <Key>в</Key>
+      <Key>б</Key>
+      <Key>н</Key>
+      <Key>м</Key>
+      <Key shift=";" alt="&lt;">,</Key>
+      <Key shift=":" alt="&gt;">.</Key>
+      <Key shift="_">-</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

@@ -1,0 +1,59 @@
+<Keyboard language="Greek" culture="EL">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="~" dk="΅">`</Key>
+      <Key shift="!" dk="΄">1</Key>
+      <Key shift="@" alt="²" dk="¨">2</Key>
+      <Key shift="#" alt="³">3</Key>
+      <Key shift="$" alt="£">4</Key>
+      <Key shift="%" alt="§">5</Key>
+      <Key shift="^" alt="¶">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="*" alt="¤">8</Key>
+      <Key shift="(" alt="¦">9</Key>
+      <Key shift=")" alt="°">0</Key>
+      <Key shift="_" alt="±">-</Key>
+      <Key shift="+" alt="½">=</Key>
+      <Key shift="|" alt="¬">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift=":">;</Key>
+      <Key shift="΅">ς</Key>
+      <Key alt="€">ε</Key>
+      <Key alt="®">ρ</Key>
+      <Key>τ</Key>
+      <Key alt="¥">υ</Key>
+      <Key>θ</Key>
+      <Key>ι</Key>
+      <Key>ο</Key>
+      <Key>π</Key>
+      <Key shift="{" alt="«">[</Key>
+      <Key shift="}" alt="»">]</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>α</Key>
+      <Key>σ</Key>
+      <Key>δ</Key>
+      <Key>φ</Key>
+      <Key>γ</Key>
+      <Key>η</Key>
+      <Key>ξ</Key>
+      <Key>κ</Key>
+      <Key>λ</Key>
+      <Key shift="¨" alt="΅">΄</Key>
+      <Key shift="&quot;">'</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>ζ</Key>
+      <Key>χ</Key>
+      <Key alt="©">ψ</Key>
+      <Key>ω</Key>
+      <Key>β</Key>
+      <Key>ν</Key>
+      <Key>μ</Key>
+      <Key shift="&lt;">,</Key>
+      <Key shift="&gt;">.</Key>
+      <Key shift="?">/</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

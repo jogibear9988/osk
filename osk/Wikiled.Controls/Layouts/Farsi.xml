@@ -1,0 +1,59 @@
+<Keyboard language="Persian" culture="FA">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="×">÷</Key>
+      <Key shift="!">1</Key>
+      <Key shift="@">2</Key>
+      <Key shift="#">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="^">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="*">8</Key>
+      <Key shift=")">9</Key>
+      <Key shift="(">0</Key>
+      <Key shift="_">-</Key>
+      <Key shift="+">=</Key>
+      <Key shift="|">پ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="ً">ض</Key>
+      <Key shift="ٌ">ص</Key>
+      <Key shift="ٍ">ث</Key>
+      <Key shift="ٍريالل">ق</Key>
+      <Key shift="،">ف</Key>
+      <Key shift="؛">غ</Key>
+      <Key shift=",">ع</Key>
+      <Key shift="]">ه</Key>
+      <Key shift="[">خ</Key>
+      <Key shift="\">ح</Key>
+      <Key shift="}">ج</Key>
+      <Key shift="{">چ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="َ">ش</Key>
+      <Key shift="ُ">س</Key>
+      <Key shift="ِ">ی</Key>
+      <Key shift="ّ">ب</Key>
+      <Key shift="ۀ">ل</Key>
+      <Key shift="آ">ا</Key>
+      <Key shift="ـ">ت</Key>
+      <Key shift="«">ن</Key>
+      <Key shift="»">م</Key>
+      <Key shift=":">ک</Key>
+      <Key shift="&quot;">گ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="ة">ظ</Key>
+      <Key shift="ي">ط</Key>
+      <Key shift="ژ">ز</Key>
+      <Key shift="ؤ">ر</Key>
+      <Key shift="إ">ذ</Key>
+      <Key shift="أ">د</Key>
+      <Key shift="ء">ئ</Key>
+      <Key shift="&lt;">و</Key>
+      <Key shift="&gt;">.</Key>
+      <Key shift="؟">/</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

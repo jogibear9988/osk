@@ -1,0 +1,59 @@
+<Keyboard language="Russian" culture="RU">
+  <Rows>
+    <KeyboardRow>
+      <Key>ё</Key>
+      <Key shift="!">1</Key>
+      <Key shift="&quot;">2</Key>
+      <Key shift="№">3</Key>
+      <Key shift=";">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift=":">6</Key>
+      <Key shift="?">7</Key>
+      <Key shift="*">8</Key>
+      <Key shift="(">9</Key>
+      <Key shift=")">0</Key>
+      <Key shift="_">-</Key>
+      <Key shift="+">=</Key>
+      <Key shift="/">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>й</Key>
+      <Key>ц</Key>
+      <Key>у</Key>
+      <Key>к</Key>
+      <Key>е</Key>
+      <Key>н</Key>
+      <Key>г</Key>
+      <Key>ш</Key>
+      <Key>щ</Key>
+      <Key>з</Key>
+      <Key>х</Key>
+      <Key>ъ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>ф</Key>
+      <Key>ы</Key>
+      <Key>в</Key>
+      <Key>а</Key>
+      <Key>п</Key>
+      <Key>р</Key>
+      <Key>о</Key>
+      <Key>л</Key>
+      <Key>д</Key>
+      <Key>ж</Key>
+      <Key>э</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>я</Key>
+      <Key>ч</Key>
+      <Key>с</Key>
+      <Key>м</Key>
+      <Key>и</Key>
+      <Key>т</Key>
+      <Key>ь</Key>
+      <Key>б</Key>
+      <Key>ю</Key>
+      <Key shift=",">.</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

@@ -1,0 +1,59 @@
+<Keyboard language="Turkish" culture="TR">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="é" alt="&lt;" dk="^">"</Key>
+      <Key shift="!" alt="&gt;" dk="`">1</Key>
+      <Key shift="'" alt="£" dk="¨">2</Key>
+      <Key shift="^" alt="#" dk="~">3</Key>
+      <Key shift="+" alt="$" dk="´">4</Key>
+      <Key shift="%" alt="½">5</Key>
+      <Key shift="&amp;">6</Key>
+      <Key shift="/" alt="{">7</Key>
+      <Key shift="(" alt="[">8</Key>
+      <Key shift=")" alt="]">9</Key>
+      <Key shift="=" alt="}">0</Key>
+      <Key shift="?" alt="\">*</Key>
+      <Key shift="_" alt="|">-</Key>
+      <Key shift=";" alt="`">,</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="@">q</Key>
+      <Key>w</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key>u</Key>
+      <Key shift="I" alt="i">ı</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key alt="¨">ğ</Key>
+      <Key alt="~">ü</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="æ">a</Key>
+      <Key alt="ß">s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key alt="´">ş</Key>
+      <Key>i</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>z</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key>m</Key>
+      <Key>ö</Key>
+      <Key>ç</Key>
+      <Key shift=":">.</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

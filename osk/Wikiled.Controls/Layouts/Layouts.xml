@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts default="EnglishUS">
+  <Layout name="Arabic" path="arabic.xml" />
+  <Layout name="EnglishUS" path="english.xml" />
+  <Layout name="Croatian" path="Croatian.xml" />
+  <Layout name="Czech" path="Czech.xml" />
+  <Layout name="Danish" path="Danish.xml" />
+  <Layout name="Dutch" path="Dutch.xml" />
+  <Layout name="Estonian" path="Estonian.xml" />
+  <Layout name="Persian" path="Farsi.xml" />
+  <Layout name="Lithuanian" path="Lithuanian.xml" />
+  <Layout name="Norwegian" path="Norwegian.xml" />
+  <Layout name="Polish" path="Polish.xml" />
+  <Layout name="Portuguese" path="Portuguese.xml" />
+  <Layout name="Russian" path="Russian.xml" />
+  <Layout name="Serbian" path="Serbian.xml" />
+  <Layout name="Slovak" path="Slovak.xml" />
+  <Layout name="Spanish" path="Spanish.xml" />
+  <Layout name="Swedish" path="Swedish.xml" />
+  <Layout name="Thai" path="Thai.xml" />
+  <Layout name="Turkish" path="Turkish.xml" />
+  <Layout name="Ukrainian" path="Ukrainian.xml" />
+  <Layout name="Finnish" path="Finnish.xml" />
+  <Layout name="French" path="French.xml" />
+  <Layout name="German" path="German.xml" />
+  <Layout name="Greek" path="Greek.xml" />
+  <Layout name="Hebrew" path="Hebrew.xml" />
+  <Layout name="Italian" path="Italian.xml" />  
+  <Layout name="Latvian" path="Latvian.xml" />
+  <Layout name="English" path="CompletlyCustom.xml" />
+  
+</Layouts>

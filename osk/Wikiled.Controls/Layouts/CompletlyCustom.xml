@@ -1,0 +1,32 @@
+﻿<Keyboard language="Custom English" culture="EN" all="true">
+  <Rows>    
+    <KeyboardRow>
+      <TabKey></TabKey>     
+      <Key>q</Key>
+      <Key style="regularButton">w</Key>
+      <Key>e</Key>   
+      <BackspaceKey style="longButtonFirst"></BackspaceKey>
+    </KeyboardRow>
+    <KeyboardRow>
+      <CapsLockKey></CapsLockKey>
+      <Key>f</Key>
+      <Key style="regularButton">g</Key>
+      <Key>h</Key>
+      <DeleteKey style="longButtonFirst"></DeleteKey>      
+    </KeyboardRow>
+    <KeyboardRow>
+      <ShiftKey></ShiftKey>
+      <Key shift="&lt;">,</Key>
+      <Key shift="&gt;" style="regularButton">.</Key>
+      <Key shift="?">/</Key>      
+      <EnterKey></EnterKey>
+    </KeyboardRow>
+    <KeyboardRow>
+      <CtrlKey></CtrlKey>
+      <AltKey></AltKey>
+      <SpaceKey style="regularButton"></SpaceKey>
+      <AltKey></AltKey>
+      <CtrlKey style="longButtonFirst">CCC</CtrlKey>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

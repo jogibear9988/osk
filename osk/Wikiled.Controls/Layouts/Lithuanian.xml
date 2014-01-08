@@ -1,0 +1,59 @@
+<Keyboard language="Lithuanian" culture="LT">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="~">`</Key>
+      <Key alt="1">ą</Key>
+      <Key alt="2">č</Key>
+      <Key alt="3">ę</Key>
+      <Key alt="4">ė</Key>
+      <Key alt="5">į</Key>
+      <Key alt="6">š</Key>
+      <Key alt="7">ų</Key>
+      <Key alt="8">ū</Key>
+      <Key shift="(">9</Key>
+      <Key shift=")">0</Key>
+      <Key shift="_">-</Key>
+      <Key alt="=">ž</Key>
+      <Key shift="|">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>q</Key>
+      <Key>w</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key shift="{">[</Key>
+      <Key shift="}">]</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key>s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key shift=":">;</Key>
+      <Key shift="&quot;">'</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>z</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key>m</Key>
+      <Key shift="&lt;">,</Key>
+      <Key shift="&gt;">.</Key>
+      <Key shift="?">/</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

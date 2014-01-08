@@ -1,0 +1,59 @@
+<Keyboard language="Polish" culture="PL">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="~" dk="~">`</Key>
+      <Key shift="!">1</Key>
+      <Key shift="@">2</Key>
+      <Key shift="#">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="^">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="*">8</Key>
+      <Key shift="(">9</Key>
+      <Key shift=")">0</Key>
+      <Key shift="_">-</Key>
+      <Key shift="+">=</Key>
+      <Key shift="|">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>q</Key>
+      <Key>w</Key>
+      <Key alt="ę">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key alt="€">u</Key>
+      <Key>i</Key>
+      <Key alt="ó">o</Key>
+      <Key>p</Key>
+      <Key shift="{">[</Key>
+      <Key shift="}">]</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="ą">a</Key>
+      <Key alt="ś">s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key alt="ł">l</Key>
+      <Key shift=":">;</Key>
+      <Key shift="&quot;">'</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="ż">z</Key>
+      <Key alt="ź">x</Key>
+      <Key alt="ć">c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key alt="ń">n</Key>
+      <Key>m</Key>
+      <Key shift="&lt;">,</Key>
+      <Key shift="&gt;">.</Key>
+      <Key shift="?">/</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

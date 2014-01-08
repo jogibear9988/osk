@@ -1,0 +1,59 @@
+<Keyboard language="English" culture="EN">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="~">`</Key>
+      <Key shift="!">1</Key>
+      <Key shift="@">2</Key>
+      <Key shift="#">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="^">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="*">8</Key>
+      <Key shift="(">9</Key>
+      <Key shift=")">0</Key>
+      <Key shift="_">-</Key>
+      <Key shift="+">=</Key>
+      <Key shift="|">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>q</Key>
+      <Key>w</Key>
+      <Key>e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key shift="{">[</Key>
+      <Key shift="}">]</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key>s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key shift=":">;</Key>
+      <Key shift="&quot;">'</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>z</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key>m</Key>
+      <Key shift="&lt;">,</Key>
+      <Key shift="&gt;">.</Key>
+      <Key shift="?">/</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

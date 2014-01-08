@@ -1,0 +1,59 @@
+<Keyboard language="Croatian" culture="HR">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="¨" dk="¸">¸</Key>
+      <Key shift="!" alt="~" dk="¨">1</Key>
+      <Key shift="&quot;" alt="ˇ" dk="ˇ">2</Key>
+      <Key shift="#" alt="^" dk="^">3</Key>
+      <Key shift="$" alt="˘" dk="˘">4</Key>
+      <Key shift="%" alt="°" dk="°">5</Key>
+      <Key shift="&amp;" alt="˛" dk="˛">6</Key>
+      <Key shift="/" alt="`" dk="˙">7</Key>
+      <Key shift="(" alt="˙" dk="´">8</Key>
+      <Key shift=")" alt="´" dk="˝">9</Key>
+      <Key shift="=" alt="˝">0</Key>
+      <Key shift="?" alt="¨">'</Key>
+      <Key shift="*" alt="¸">+</Key>
+      <Key alt="¤">ž</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="\">q</Key>
+      <Key alt="|">w</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>z</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key alt="÷">š</Key>
+      <Key alt="×">đ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key>s</Key>
+      <Key>d</Key>
+      <Key alt="[">f</Key>
+      <Key alt="]">g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key alt="ł">k</Key>
+      <Key alt="Ł">l</Key>
+      <Key>č</Key>
+      <Key alt="ß">ć</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>y</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key alt="@">v</Key>
+      <Key alt="{">b</Key>
+      <Key alt="}">n</Key>
+      <Key alt="§">m</Key>
+      <Key shift=";" alt="&lt;">,</Key>
+      <Key shift=":" alt="&gt;">.</Key>
+      <Key shift="_">-</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

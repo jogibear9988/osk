@@ -1,0 +1,59 @@
+<Keyboard language="Thai" culture="TH">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="%">_</Key>
+      <Key shift="+">ๅ</Key>
+      <Key shift="๑">/</Key>
+      <Key shift="๒">-</Key>
+      <Key shift="๓">ภ</Key>
+      <Key shift="๔">ถ</Key>
+      <Key shift="ู">ุ</Key>
+      <Key shift="฿">ึ</Key>
+      <Key shift="๕">ค</Key>
+      <Key shift="๖">ต</Key>
+      <Key shift="๗">จ</Key>
+      <Key shift="๘">ข</Key>
+      <Key shift="๙">ช</Key>
+      <Key shift="ฅ">ฃ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="๐">ๆ</Key>
+      <Key shift="&quot;">ไ</Key>
+      <Key shift="ฎ">ำ</Key>
+      <Key shift="ฑ">พ</Key>
+      <Key shift="ธ">ะ</Key>
+      <Key shift="ํ">ั</Key>
+      <Key shift="๊">ี</Key>
+      <Key shift="ณ">ร</Key>
+      <Key shift="ฯ">น</Key>
+      <Key shift="ญ">ย</Key>
+      <Key shift="ฐ">บ</Key>
+      <Key shift="ม">ล</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="ฤ">ฟ</Key>
+      <Key shift="ฆ">ห</Key>
+      <Key shift="ฏ">ก</Key>
+      <Key shift="โ">ด</Key>
+      <Key shift="ฌ">เ</Key>
+      <Key shift="็">้</Key>
+      <Key shift="๋">่</Key>
+      <Key shift="ษ">า</Key>
+      <Key shift="ศ">ส</Key>
+      <Key shift="ซ">ว</Key>
+      <Key shift="ใ">ง</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="(">ผ</Key>
+      <Key shift=")">ป</Key>
+      <Key shift="ฉ">แ</Key>
+      <Key shift="ฮ">อ</Key>
+      <Key shift="ฺ">ิ</Key>
+      <Key shift="์">ื</Key>
+      <Key shift="?">ท</Key>
+      <Key shift="ฒ">ม</Key>
+      <Key shift="ฬ">ใ</Key>
+      <Key shift="ฦ">ฝ</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

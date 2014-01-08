@@ -1,0 +1,59 @@
+<Keyboard language="Dutch" culture="NL">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="§" alt="¬" dk="~">@</Key>
+      <Key shift="!" alt="¹" dk="¸">1</Key>
+      <Key shift="&quot;" alt="²" dk="¨">2</Key>
+      <Key shift="#" alt="³" dk="^">3</Key>
+      <Key shift="$" alt="¼" dk="´">4</Key>
+      <Key shift="%" alt="½" dk="`">5</Key>
+      <Key shift="&amp;" alt="¾">6</Key>
+      <Key shift="_" alt="£">7</Key>
+      <Key shift="(" alt="{">8</Key>
+      <Key shift=")" alt="}">9</Key>
+      <Key shift="'">0</Key>
+      <Key shift="?" alt="\">/</Key>
+      <Key shift="~" alt="¸">°</Key>
+      <Key shift="&gt;">&lt;</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>q</Key>
+      <Key>w</Key>
+      <Key alt="€">e</Key>
+      <Key alt="¶">r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key shift="^">¨</Key>
+      <Key shift="|">*</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key alt="ß">s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key shift="±">+</Key>
+      <Key shift="`">´</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="«">z</Key>
+      <Key alt="»">x</Key>
+      <Key alt="¢">c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key alt="µ">m</Key>
+      <Key shift=";">,</Key>
+      <Key shift=":" alt="·">.</Key>
+      <Key shift="=">-</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

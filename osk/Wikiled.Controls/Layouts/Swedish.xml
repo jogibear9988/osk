@@ -1,0 +1,59 @@
+<Keyboard language="Swedish" culture="SV">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="½" dk="´">§</Key>
+      <Key shift="!" dk="`">1</Key>
+      <Key shift="&quot;" alt="@" dk="¨">2</Key>
+      <Key shift="#" alt="£" dk="^">3</Key>
+      <Key shift="¤" alt="$" dk="~">4</Key>
+      <Key shift="%" alt="€">5</Key>
+      <Key shift="&amp;">6</Key>
+      <Key shift="/" alt="{">7</Key>
+      <Key shift="(" alt="[">8</Key>
+      <Key shift=")" alt="]">9</Key>
+      <Key shift="=" alt="}">0</Key>
+      <Key shift="?" alt="\">+</Key>
+      <Key shift="`">´</Key>
+      <Key shift="*">'</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>q</Key>
+      <Key>w</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>y</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key>å</Key>
+      <Key shift="^" alt="~">¨</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key>s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key>ö</Key>
+      <Key>ä</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>z</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key alt="µ">m</Key>
+      <Key shift=";">,</Key>
+      <Key shift=":">.</Key>
+      <Key shift="_">-</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="Wikiled.Controls.Keyboard.KeyboardControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:UI="clr-namespace:Wikiled.Controls.UI"	
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows" xmlns:Controls="clr-namespace:System.Windows.Controls">
+    <UserControl.Resources>
+        <Style x:Key="regularButton" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Background" Value="#FF1F3B53"/>
+            <Setter Property="Foreground" Value="#FF000000"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+        <Style x:Key="longButton" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="100"/>
+        </Style>
+        <Style x:Key="longButtonFirst" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="75"/>
+        </Style>
+        <Style x:Key="spaceButton" TargetType="Button">
+            <Setter Property="Margin" Value="50,0,50,0"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="350"/>
+        </Style>
+
+        <Style x:Key="shiftButton" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="125"/>
+        </Style>
+        <Style x:Name="buttonWithSpace" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Margin" Value="0,0,16,0"/>
+        </Style>
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Width" Value="180" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+        <UI:KeyStyleConverter x:Key="styleConverter" />
+        <UI:OpacityConverter x:Key="opacityConverter" />
+        <UI:VisibilityConverter x:Key="visibilityConverter" />    
+        <UI:BooleanVisibilityConverter x:Key="visibilityOfBool" />
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical" >
+            <StackPanel x:Name="toolBar" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,10" Visibility="{Binding Mode=OneWay, Path=VisibleHelperControls, Converter={StaticResource visibilityOfBool}}" >
+                <TextBox x:Name="inputText" Width="200" Style="{StaticResource TextBoxStyle}"  Text="{Binding Mode=TwoWay, Path=Text}" BorderBrush="#FF179ED2" BorderThickness="3,3,3,3" FontSize="22" Height="40" />
+                <Button x:Name="okButton"  Margin="5, 0, 5, 0" Style="{StaticResource ImageButton}" Click="closeClick" >
+                    <Image Source="/Wikiled.Controls;component/Images/Apply.jpg" Width="46" Height="46" Stretch="UniformToFill" />
+                </Button>
+                <Button x:Name="cancelButton"  Margin="5, 0, 5, 0" Style="{StaticResource ImageButton}" Click="closeClick">
+                    <Image Source="/Wikiled.Controls;component/Images/cancel.jpg" Width="46" Height="46"  />
+                </Button>
+                <TextBlock x:Name="layoutsText" Text="Layout: "   TextWrapping="Wrap" TextAlignment="Left" VerticalAlignment="Center" Margin="25,0,15,0" FontWeight="Bold" FontFamily="Portable User Interface" Foreground="#FFFDFDFD" FontSize="18" FontStyle="Normal"/>
+                <ComboBox x:Name="allLayouts" Height="40" Width="200" ItemsSource="{Binding Mode=OneWay, Path=Layouts}" 
+                          DisplayMemberPath="Name" 
+                          SelectedItem="{Binding SelectedLayout, Mode=TwoWay}" FontSize="22" Background="#FF1F394E" MaxDropDownHeight="1.7976931348623157E+308" IsDropDownOpen="False" >
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <ItemsControl x:Name="keyboardList" ItemsSource="{Binding Mode=OneWay, Path=SelectedLayout.Rows}" HorizontalAlignment="Right">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <ItemsControl x:Name="keyboardListRow" ItemsSource="{Binding}" >
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Horizontal"/>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Button  Padding="2" x:Name="x"  
+                                        Style="{Binding Path=Style, Converter={StaticResource styleConverter}}" 
+                                        UI:Commands.Command="{Binding Command}"
+                                        UI:Commands.CommandParameter="{Binding Path=Value}" Background="LawnGreen" >
+                                                <Button.Content>
+                                                    <Controls:Viewbox VerticalAlignment="Stretch">
+                                                        <StackPanel Orientation="Horizontal">
+                                                            <Ellipse Width="6" Height="6" Visibility="{Binding Converter={StaticResource visibilityConverter}}" Opacity="{Binding Path=IsChecked, Converter={StaticResource opacityConverter}}" >
+                                                                <Ellipse.Fill>
+                                                                    <RadialGradientBrush GradientOrigin="2,2">
+                                                                        <GradientStop Offset="0.2" Color="#FF527449" />
+                                                                        <GradientStop Offset="1" Color="#FF220A0A" />
+                                                                        <GradientStop Color="#FF2BFF02" Offset="0.99"/>
+                                                                    </RadialGradientBrush>
+                                                                </Ellipse.Fill>
+                                                            </Ellipse>
+                                                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Value}"></TextBlock>
+                                                        </StackPanel>
+                                                    </Controls:Viewbox>
+                                                </Button.Content>
+                                            </Button>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

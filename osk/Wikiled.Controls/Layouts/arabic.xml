@@ -1,0 +1,59 @@
+<Keyboard language="Arabic" culture="AR">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="ّ">ذ</Key>
+      <Key shift="!">1</Key>
+      <Key shift="@">2</Key>
+      <Key shift="#">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="^">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="*">8</Key>
+      <Key shift=")">9</Key>
+      <Key shift="(">0</Key>
+      <Key shift="_">-</Key>
+      <Key shift="+">=</Key>
+      <Key shift="|">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="َ">ض</Key>
+      <Key shift="ً">ص</Key>
+      <Key shift="ُ">ث</Key>
+      <Key shift="ٌ">ق</Key>
+      <Key shift="ﻹ">ف</Key>
+      <Key shift="إ">غ</Key>
+      <Key shift="‘">ع</Key>
+      <Key shift="÷">ه</Key>
+      <Key shift="×">خ</Key>
+      <Key shift="؛">ح</Key>
+      <Key shift="&lt;">ج</Key>
+      <Key shift="&gt;">د</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="ِ">ش</Key>
+      <Key shift="ٍ">س</Key>
+      <Key shift="[">ي</Key>
+      <Key shift="]">ب</Key>
+      <Key shift="ﻷ">ل</Key>
+      <Key shift="أ">ا</Key>
+      <Key shift="ـ">ت</Key>
+      <Key shift="،">ن</Key>
+      <Key shift="/">م</Key>
+      <Key shift=":">ك</Key>
+      <Key shift="&quot;">ط</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="~">ئ</Key>
+      <Key shift="ْ">ء</Key>
+      <Key shift="{">ؤ</Key>
+      <Key shift="}">ر</Key>
+      <Key shift="ﻵ">ﻻ</Key>
+      <Key shift="آ">ى</Key>
+      <Key shift="’">ة</Key>
+      <Key shift=",">و</Key>
+      <Key shift=".">ر</Key>
+      <Key shift="؟">ظ</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

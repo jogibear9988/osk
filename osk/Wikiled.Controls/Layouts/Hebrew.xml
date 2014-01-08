@@ -1,0 +1,59 @@
+<Keyboard language="Hebrew" culture="HE">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="~">;</Key>
+      <Key shift="!">1</Key>
+      <Key shift="@">2</Key>
+      <Key shift="#">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="^">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="*">8</Key>
+      <Key shift="(">9</Key>
+      <Key shift=")">0</Key>
+      <Key shift="-">+</Key>
+      <Key shift="=">-</Key>
+      <Key shift="|">\</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="q">/</Key>
+      <Key shift="w">'</Key>
+      <Key shift="e">ק</Key>
+      <Key shift="r">ר</Key>
+      <Key shift="t">א</Key>
+      <Key shift="y">ט</Key>
+      <Key shift="u">ו</Key>
+      <Key shift="i">ן</Key>
+      <Key shift="o">ם</Key>
+      <Key shift="p">פ</Key>
+      <Key shift="}">]</Key>
+      <Key shift="{">[</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="a">ש</Key>
+      <Key shift="s">ד</Key>
+      <Key shift="d">ג</Key>
+      <Key shift="f">כ</Key>
+      <Key shift="g">ע</Key>
+      <Key shift="h">י</Key>
+      <Key shift="j">ח</Key>
+      <Key shift="k">ל</Key>
+      <Key shift="l">ך</Key>
+      <Key shift=":">ף</Key>
+      <Key shift="&quot;">,</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key shift="z">ז</Key>
+      <Key shift="x">ס</Key>
+      <Key shift="c">ב</Key>
+      <Key shift="v">ה</Key>
+      <Key shift="b">נ</Key>
+      <Key shift="n">מ</Key>
+      <Key shift="m">צ</Key>
+      <Key shift="&lt;">ת</Key>
+      <Key shift="&gt;">ץ</Key>
+      <Key shift="?">.</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

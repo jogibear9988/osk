@@ -1,0 +1,59 @@
+<Keyboard language="German" culture="DE">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="°" dk="^">^</Key>
+      <Key shift="!" dk="´">1</Key>
+      <Key shift="&quot;" alt="²" dk="`">2</Key>
+      <Key shift="§" alt="³">3</Key>
+      <Key shift="$">4</Key>
+      <Key shift="%">5</Key>
+      <Key shift="&amp;">6</Key>
+      <Key shift="/" alt="{">7</Key>
+      <Key shift="(" alt="[">8</Key>
+      <Key shift=")" alt="]">9</Key>
+      <Key shift="=" alt="}">0</Key>
+      <Key shift="?" alt="\">ß</Key>
+      <Key shift="`">´</Key>
+      <Key shift="'">#</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="@">q</Key>
+      <Key>w</Key>
+      <Key alt="€">e</Key>
+      <Key>r</Key>
+      <Key>t</Key>
+      <Key>z</Key>
+      <Key>u</Key>
+      <Key>i</Key>
+      <Key>o</Key>
+      <Key>p</Key>
+      <Key>ü</Key>
+      <Key shift="*" alt="~">+</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>a</Key>
+      <Key>s</Key>
+      <Key>d</Key>
+      <Key>f</Key>
+      <Key>g</Key>
+      <Key>h</Key>
+      <Key>j</Key>
+      <Key>k</Key>
+      <Key>l</Key>
+      <Key>ö</Key>
+      <Key>ä</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>y</Key>
+      <Key>x</Key>
+      <Key>c</Key>
+      <Key>v</Key>
+      <Key>b</Key>
+      <Key>n</Key>
+      <Key alt="µ">m</Key>
+      <Key shift=";">,</Key>
+      <Key shift=":">.</Key>
+      <Key shift="_">-</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

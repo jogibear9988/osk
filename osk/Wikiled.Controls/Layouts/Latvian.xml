@@ -1,0 +1,59 @@
+<Keyboard language="Latvian" culture="LV">
+  <Rows>
+    <KeyboardRow>
+      <Key shift="?" dk="´">­</Key>
+      <Key shift="!" alt="«" dk="°">1</Key>
+      <Key shift="«">2</Key>
+      <Key shift="»">3</Key>
+      <Key shift="$" alt="€">4</Key>
+      <Key shift="%" alt="&quot;">5</Key>
+      <Key shift="/" alt="’">6</Key>
+      <Key shift="&amp;">7</Key>
+      <Key shift="×" alt=":">8</Key>
+      <Key shift="(">9</Key>
+      <Key shift=")">0</Key>
+      <Key shift="_" alt="–">-</Key>
+      <Key alt="=">f</Key>
+      <Key>ķ</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key alt="q">ū</Key>
+      <Key alt="ģ">g</Key>
+      <Key>j</Key>
+      <Key alt="ŗ">r</Key>
+      <Key alt="w">m</Key>
+      <Key alt="y">v</Key>
+      <Key>n</Key>
+      <Key>z</Key>
+      <Key>ē</Key>
+      <Key>č</Key>
+      <Key alt="[">ž</Key>
+      <Key alt="]">h</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>š</Key>
+      <Key>u</Key>
+      <Key>s</Key>
+      <Key>i</Key>
+      <Key>l</Key>
+      <Key>d</Key>
+      <Key>a</Key>
+      <Key>t</Key>
+      <Key alt="€">e</Key>
+      <Key>c</Key>
+      <Key shift="°">´</Key>
+    </KeyboardRow>
+    <KeyboardRow>
+      <Key>ņ</Key>
+      <Key alt="x">b</Key>
+      <Key>ī</Key>
+      <Key alt="ķ">k</Key>
+      <Key>p</Key>
+      <Key alt="õ">o</Key>
+      <Key>ā</Key>
+      <Key shift=";" alt="&lt;">,</Key>
+      <Key shift=":" alt="&gt;">.</Key>
+      <Key>ļ</Key>
+    </KeyboardRow>
+  </Rows>
+</Keyboard>

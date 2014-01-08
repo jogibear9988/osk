@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="Wikiled.Controls.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:Controls="clr-namespace:Wikiled.Controls" 
+    xmlns:Keyboard="clr-namespace:Wikiled.Controls.Keyboard">
+    <Grid x:Name="LayoutRoot" Background="#DB1E1E1E" >
+        <Keyboard:KeyboardControl x:Name="keyboard"  ></Keyboard:KeyboardControl>
+    </Grid>
+</UserControl>

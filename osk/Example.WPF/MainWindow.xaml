@@ -5,7 +5,9 @@
         xmlns:controls="clr-namespace:Wikiled.Controls;assembly=Wikiled.Controls"
         Title="MainWindow" Height="574" Width="1154.3">
     <Grid>
-        <keyboard:KeyboardControl />
+        <keyboard:KeyboardControl >
+            <Button Content="Button" HorizontalAlignment="Left" Margin="496,384,0,0" VerticalAlignment="Top" Width="75"/>
+        </keyboard:KeyboardControl>
 
         <TextBox Margin="591,305,0,0" controls:KeyboardHelper.AttachOSK="true" Height="47" VerticalAlignment="Top" HorizontalAlignment="Left" Width="275"></TextBox>
         <TextBox Margin="87,364,0,0" controls:KeyboardHelper.AttachOSK="true" Height="47" VerticalAlignment="Top" HorizontalAlignment="Left" Width="275"/>

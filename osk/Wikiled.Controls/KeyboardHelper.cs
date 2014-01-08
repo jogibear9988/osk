@@ -2,6 +2,7 @@
 using System.Net;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Documents;
 using System.Windows.Ink;
 using System.Windows.Input;
@@ -22,6 +23,13 @@ namespace Wikiled.Controls
             keyboard.VerticalAlignment = VerticalAlignment.Top;
             keyboard.HorizontalAlignment = HorizontalAlignment.Left;
 
+            popup = new Popup();
+            popup.Child = keyboard;
+#if !SILVERLIGHT
+            popup.PlacementTarget = Application.Current.MainWindow;
+            popup.Placement = PlacementMode.Relative;
+#endif
+
             tmr = new DispatcherTimer();
             tmr.Tick += tmr_Tick;
             tmr.Interval = new TimeSpan(0, 0, 0, 0, 200);
@@ -41,7 +49,7 @@ namespace Wikiled.Controls
         }
 
         private static KeyboardControl keyboard;
-        private static Window window;
+        private static Popup popup;
         private static Panel oldPanel;
         private static TextBox oldTb;
         private static bool added = false;
@@ -73,10 +81,11 @@ namespace Wikiled.Controls
 
         static void tmr_Tick(object sender, EventArgs e)
         {
-            if (oldPanel != null)
+            if (popup.IsOpen)
             {
-                oldPanel.Children.Remove(keyboard);
-                oldPanel = null;
+                popup.IsOpen = false;
+                //oldPanel.Children.Remove(keyboard);
+                //oldPanel = null;
                 added = false;
             }   
         }
@@ -93,23 +102,32 @@ namespace Wikiled.Controls
             var t = sender as TextBox;
             keyboard.CurrentTextBox = t;
             
-            if (oldPanel != null && oldTb != t)
+            if (popup.IsOpen && oldTb != t)
             {
-                oldPanel.Children.Remove(keyboard);
-                oldPanel = null;
+                popup.IsOpen = false;
+                //oldPanel.Children.Remove(keyboard);
+                //oldPanel = null;
                 added = false;
             }
 
-            oldPanel = t.TryFindParent<Grid>();;
+            //oldPanel = t.TryFindParent<Grid>();;
             oldTb = t;
 
-            if (oldPanel != null && !added)
+            if (!added)
             {
-                GeneralTransform gt = (t).TransformToVisual(oldPanel);
+#if SILVERLIGHT
+                var root = Application.Current.RootVisual;
+#else
+                var root = Application.Current.MainWindow;
+#endif
+                GeneralTransform gt = (t).TransformToVisual(root);
                 Point p = gt.Transform(new Point(0, 0));
-                keyboard.Margin = new Thickness(p.X, p.Y + t.ActualHeight, -800, -500);
-                oldPanel.Children.Add(keyboard);
+                popup.HorizontalOffset = p.X;
+                popup.VerticalOffset = p.Y + t.ActualHeight;
+                //keyboard.Margin = new Thickness(p.X, p.Y + t.ActualHeight, -800, -500);
+                //oldPanel.Children.Add(keyboard);
                 added = true;
+                popup.IsOpen = true;
             }
         }
         

@@ -79,6 +79,8 @@
     <Compile Include="Helpers\IXmlReadable.cs" />
     <Compile Include="Helpers\NumericExtensions.cs" />
     <Compile Include="Helpers\ObservableCollectionXml.cs" />
+    <Compile Include="Helpers\UIHelpers.cs" />
+    <Compile Include="KeyboardHelper.cs" />
     <Compile Include="Keyboard\Keys\CapsLockKey.cs" />
     <Compile Include="Keyboard\Keys\SpecialKey.cs" />
     <Compile Include="UI\BooleanVisibilityConverter.cs" />

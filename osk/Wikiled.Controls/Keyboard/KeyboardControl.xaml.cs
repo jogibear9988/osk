@@ -27,10 +27,13 @@ namespace Wikiled.Controls.Keyboard
         public static readonly DependencyProperty VisibleHelperControlsProperty =
             DependencyProperty.Register("VisibleHelperControls", typeof(bool), typeof(KeyboardControl), new PropertyMetadata(false));
 
+        public TextBox CurrentTextBox { get; set; }
         
         public KeyboardControl()
         {
             InitializeComponent();
+
+            CurrentTextBox = inputText;
 
             ((KeyStyleConverter) this.Resources["styleConverter"]).OwnerControl = this;
             
@@ -56,7 +59,7 @@ namespace Wikiled.Controls.Keyboard
         void Logic_KeyPressed(object sender, KeyPressedEventArgs args)
         {
             string text = args.PressedKey ?? string.Empty;
-            this.inputText.Focus();
+            this.CurrentTextBox.Focus();
 
             if (args.Key is SpecialKey)
             {
@@ -74,28 +77,30 @@ namespace Wikiled.Controls.Keyboard
                 }
                 else if (args.Key is BackspaceKey)
                 {
-                    if (this.inputText.Text.Length != 0 &&
-                        this.inputText.SelectionLength == 0 &&
-                        this.inputText.SelectionStart != 0)
+                    if (this.CurrentTextBox.Text.Length != 0 &&
+                         this.CurrentTextBox.SelectionLength == 0 &&
+                         this.CurrentTextBox.SelectionStart != 0)
                     {
-                        this.inputText.Select(this.inputText.SelectionStart - 1, 1);
+                        this.CurrentTextBox.Select(this.CurrentTextBox.SelectionStart - 1, 1);
                     }
                     text = string.Empty;
                 }
                 else if (args.Key is DeleteKey)
                 {
-                    if (this.inputText.Text.Length != 0 &&
-                     this.inputText.SelectionLength == 0 &&
-                     this.inputText.SelectionStart != this.inputText.Text.Length)
+                    if (this.CurrentTextBox.Text.Length != 0 &&
+                     this.CurrentTextBox.SelectionLength == 0 &&
+                     this.CurrentTextBox.SelectionStart != this.CurrentTextBox.Text.Length)
                     {
-                        this.inputText.Select(this.inputText.SelectionStart, 1);
+                        this.CurrentTextBox.Select(this.CurrentTextBox.SelectionStart, 1);
                     }
                     text = string.Empty;
                 }
             }
             // reuse selected text property to do text change 
-            this.inputText.SelectedText = text;
-
+            this.CurrentTextBox.SelectedText = text;
+            this.CurrentTextBox.SelectionLength = 0;
+            this.CurrentTextBox.SelectionStart = ++this.CurrentTextBox.SelectionStart;
+            this.CurrentTextBox.Focus();
         } 
         #endregion
 

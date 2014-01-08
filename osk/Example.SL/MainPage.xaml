@@ -4,10 +4,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:keyboard="clr-namespace:Wikiled.Controls.Keyboard;assembly=Wikiled.Controls"
-    mc:Ignorable="d"
-    d:DesignHeight="300" d:DesignWidth="400">
+    xmlns:controls="clr-namespace:Wikiled.Controls;assembly=Wikiled.Controls"
+    mc:Ignorable="d" Width="905.287" Height="376.22">
 
     <Grid x:Name="LayoutRoot" Background="White">
         <keyboard:KeyboardControl />
+        <TextBox Margin="719,335,10,10" controls:KeyboardHelper.AttachOSK="true"></TextBox>
+        <TextBox Margin="254,335,475,10" controls:KeyboardHelper.AttachOSK="true"/>
     </Grid>
 </UserControl>

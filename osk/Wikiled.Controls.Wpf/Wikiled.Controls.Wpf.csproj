@@ -52,6 +52,12 @@
     <Compile Include="..\Wikiled.Controls\Helpers\ObservableCollectionXml.cs">
       <Link>Helpers\ObservableCollectionXml.cs</Link>
     </Compile>
+    <Compile Include="..\Wikiled.Controls\Helpers\UIHelpers.cs">
+      <Link>Helpers\UIHelpers.cs</Link>
+    </Compile>
+    <Compile Include="..\Wikiled.Controls\KeyboardHelper.cs">
+      <Link>KeyboardHelper.cs</Link>
+    </Compile>
     <Compile Include="..\Wikiled.Controls\Keyboard\Definitions.cs">
       <Link>Keyboard\Definitions.cs</Link>
     </Compile>

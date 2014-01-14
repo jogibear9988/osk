@@ -65,7 +65,7 @@ namespace Wikiled.Controls
         }
 
         public static readonly DependencyProperty AttachOSKProperty =
-            DependencyProperty.RegisterAttached("AttachOSK", typeof(bool), typeof(TextBox), new PropertyMetadata(false, OnAttachOSKChanged));
+            DependencyProperty.RegisterAttached("AttachOSK", typeof(bool), typeof(KeyboardHelper), new PropertyMetadata(false, OnAttachOSKChanged));
 
         private static void OnAttachOSKChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {

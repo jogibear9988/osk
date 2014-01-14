@@ -73,7 +73,17 @@ namespace Wikiled.Controls.Keyboard
                 }
                 else if (args.Key is EnterKey)
                 {
-                    text = "\r\n";
+                    if (this.CurrentTextBox.AcceptsReturn)
+                        text = "\r\n";
+                    else
+                    {
+#if !SILVERLIGHT
+                        //this.CurrentTextBox.KeyDown(sender, args);
+                        this.CurrentTextBox.MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
+                        return;
+#else
+#endif
+                    }
                 }
                 else if (args.Key is BackspaceKey)
                 {
